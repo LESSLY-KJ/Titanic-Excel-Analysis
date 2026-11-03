@@ -4,34 +4,47 @@
 [![Pivot Tables](https://img.shields.io/badge/Analytics-Pivot_Tables_%26_Charts-blue)]()
 [![Status](https://img.shields.io/badge/Project-Complete-success)]()
 
-## 📌 Project Overview
-The Titanic dataset is the classic industry benchmark for binary classification and observational demographic analysis. 
+## 📊 Dashboard Preview
+![Titanic Data Analysis Dashboard](Output/Dashboard.png)
 
-This project explores the factors that influenced passenger survival rates during the disaster through clean data wrangling, conditional calculations, and an interactive **Excel Executive Dashboard** utilizing Pivot Tables and dynamic slicers.
+---
+
+## 📌 Project Overview
+The Titanic dataset is the classic industry benchmark for observational demographic analysis and survival probability modeling. 
+
+This project explores the critical socio-demographic factors that influenced passenger survival during the disaster through clean data wrangling, conditional calculations, and an interactive **Excel Executive Dashboard** utilizing Pivot Tables and dynamic Pivot Charts.
 
 ---
 
 ## 🛠️ Key Analytical Techniques
-* **Data Wrangling:** Imputing missing age records via median categorization, standardizing cabin/fare information.
-* **Feature Segmentation:** Segmenting survival rates across **Gender (Sex)**, **Passenger Class (Pclass: 1st, 2nd, 3rd)**, **Age Groups (Children vs Adults)**, and **Family Size (SibSp + Parch)**.
+* **Data Wrangling:** Imputing missing age records, auditing duplicate passenger records, standardizing cabin/fare dimensions.
+* **Feature Segmentation:** Segmenting survival distributions across **Gender (Sex)**, **Passenger Class (Pclass: 1st, 2nd, 3rd)**, **Age Groups**, and **Family Composition**.
 * **Interactive Tooling:** 
-  * Pivot Tables summarizing count, survival probability, and fare statistics.
-  * Pivot Charts connected to interactive slicers (Class, Embarked Port, Gender) allowing real-time scenario filtering.
+  * Pivot Tables summarizing counts, survival rates, and class distributions.
+  * Pivot Charts (Pie & Bar charts) for immediate executive consumption.
 
 ---
 
-## 📈 Core Findings
-1. **Gender Priority:** Female passengers had an exponentially higher survival rate (~74%) compared to male passengers (~19%), verifying the historical "women and children first" maritime evacuation protocol.
-2. **Socio-Economic Disparity:** First-class passengers achieved an overall survival rate of >62%, compared to ~24% for third-class passengers, driven by cabin deck proximity to lifeboats.
-3. **Family Size Dynamics:** Solo travelers and oversized families experienced lower survival rates compared to small families of 2 to 4 members.
+## 📈 Core Findings & KPI Summary
+* **Total Passengers Analyzed:** 891
+* **Total Survived:** 342 (38.4%)
+* **Total Deceased:** 549 (61.6%)
+
+### Key Insights:
+1. **Gender Priority:** Female passengers had a significantly higher survival rate than male passengers, confirming the historical "women and children first" maritime evacuation protocol.
+2. **Socio-Economic Disparity:** Class 3 passengers accounted for the highest passenger count but suffered the lowest survival rates due to cabin depth and distance from the boat deck.
+3. **Class Demographics:** 1st Class passengers experienced the highest survival likelihood (>62%).
 
 ---
 
 ## 📂 Repository Contents
-* `titanic_dashboard.xlsx`: The master spreadsheet containing raw data, cleaned tables, pivot modeling sheets, and the visual dashboard.
+* `titanic_dashboard.xlsx`: The master spreadsheet containing raw data, cleaned tables, pivot modeling sheets, and the interactive visual dashboard.
+* `Output/Dashboard.png`: High-resolution export of the Excel analytics dashboard.
 * `README.md`: Analytical overview and methodology breakdown.
 
 ---
 
-## 💡 Practical Takeaway for Data Analysts
-Demonstrates strong foundational spreadsheet capability: building robust summary models in Excel without broken formula references, using structured tables, and delivering executive-ready reporting.
+## 👤 Author
+**Lessly K.J**  
+- LinkedIn: [linkedin.com/in/lessly-kj](https://www.linkedin.com/in/lessly-kj)  
+- GitHub: [github.com/LESSLY-KJ](https://github.com/LESSLY-KJ)
